@@ -27,7 +27,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 5. **Explore Documentation:** Refer to the documentation folder for detailed setup instructions, network diagrams, and configuration explanations.
 
 
-**Part 1: My IP Subnet Design**
+## Part 1: My IP Subnet Design
  
 | Subnet Name | Subnet Network Address | Prefix Length (/n) | Size | First Valid Host IP | Last Valid Host IP | OSPF Area (0 or 2) |
 |-------------|------------------------|--------------------|------|---------------------|--------------------|---------------------|
