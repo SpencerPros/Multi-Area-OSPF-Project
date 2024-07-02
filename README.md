@@ -22,9 +22,12 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 1. **Requirements:** Ensure you have Cisco Packet Tracer installed on your system.
 2. **Clone Repository:** Clone this repository to your local machine using `git clone https://github.com/your-username/multi-area-ospf-network.git`.
-3. **Import Project:** Open the project file in Cisco Packet Tracer and import the configurations provided.
+3. **Open the Project:** Open the project file in Cisco Packet Tracer.
 4. **Simulate and Test:** Simulate the network and validate OSPF functionality across different areas.
 5. **Explore Documentation:** Refer to the documentation folder for detailed setup instructions, network diagrams, and configuration explanations.
+
+
+**Part 1: My IP Subnet Design**
 
 ## Future Enhancements
 
