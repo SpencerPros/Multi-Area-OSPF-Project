@@ -71,6 +71,8 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 **Part 3: Network Topology**
 
+![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/5b10cf9b-592d-4600-a532-3af6b0efc853)
+
 
 
 ## Challenges Faced
