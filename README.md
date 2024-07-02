@@ -69,7 +69,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 | Host #2  | LAN        | 40.40.0.50    | /25   |
 
 
-**Part 3: Netowrk Topology**
+**Part 3: Network Topology**
 
 
 
