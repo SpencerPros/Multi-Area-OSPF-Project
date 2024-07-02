@@ -73,6 +73,9 @@ In this project, I wanted to get a sense of what a real world scenario would loo
  * For my topology draft I used 4 routers, 3 switches, and 2 PC's. With 3 serial links connecting routers R1-R3, R2-R3, and R2-R1. Routers 1 and 2 also have DCE interfaces and I gave link 1 different bandwidth value. I also created two areas being Area 2 and Area 0
 ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/5b10cf9b-592d-4600-a532-3af6b0efc853)
 
+**Part 4: Implementing the Network**
+* First I had to create the topology I drafted into Packet Tracer itself. I color coded the areas just so i could visually see which ports and routers are in which area better.
+  ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/d8aa24ca-949b-4c4a-b860-0b280aa85fb9)
 
 
 ## Challenges Faced
