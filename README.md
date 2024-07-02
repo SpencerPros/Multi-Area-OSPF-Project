@@ -28,7 +28,9 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 
 ## Documentation 
+
   **Part 1: My IP Subnet Design**
+  * This  first table outlines the detailed subnet design for the network, including subnet names, network addresses, prefix lengths, subnet sizes, first and last valid host IPs, and OSPF area assignments. It provides a detailed overview of the network segmentation and routing configuration.
  
 | Subnet Name | Subnet Network Address | Prefix Length (/n) | Size | First Valid Host IP | Last Valid Host IP | OSPF Area (0 or 2) |
 |-------------|------------------------|--------------------|------|---------------------|--------------------|---------------------|
@@ -42,8 +44,46 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 | R2 Lo0      | 55.0.0.2               | /32                | 1    | 55.0.0.2            | 55.0.0.2           | 2                   |
 | R3 Lo0      | 55.0.0.3               | /32                | 1    | 55.0.0.3            | 55.0.0.3           | 0                   |
 | R4 Lo0      | 55.0.0.4               | /32                | 1    | 55.0.0.4            | 55.0.0.4           | 0                   |
+
+
+**Part 2: My IP Address Assignments**
+* This second table shows the specific IP addresses allocated to each device and host within the network. It includes details such as device names, interface names, IP addresses, and subnet masks. This plan is essential for understanding the network topology and managing IP address assignments effectively.
+
+| Device   | Interface  | IP Address    | Mask  |
+|----------|------------|---------------|-------|
+| R1       | Fa0/0      | 77.77.50.129  | /25   |
+| R1       | S0/2/0     | 200.10.50.2   | /30   |
+| R1       | S0/2/1     | 200.10.50.9   | /30   |
+| R1       | Loopback0  | 55.0.0.1      | /32   |
+| R2       | S0/2/0     | 200.10.50.5   | /30   |
+| R2       | S0/2/1     | 200.10.50.10  | /30   |
+| R2       | Loopback0  | 55.0.0.2      | /32   |
+| R3       | Fa0/0      | 88.88.10.129  | /25   |
+| R3       | S0/2/0     | 200.10.50.6   | /30   |
+| R3       | S0/2/1     | 200.10.50.1   | /30   |
+| R3       | Loopback0  | 55.0.0.3      | /32   |
+| R4       | Fa0/0      | 40.40.0.1     | /25   |
+| R4       | Fa0/1      | 88.88.10.130  | /25   |
+| R4       | Loopback0  | 55.0.0.4      | /32   |
+| Host #1  | LAN        | 77.77.50.150  | /25   |
+| Host #2  | LAN        | 40.40.0.50    | /25   |
+
+
+**Part 3: Netowrk Topology**
+
+
+
+## Challenges Faced
+
+
+
+
+
+
+
 ## Future Enhancements
 
 - Expand the network by adding more OSPF areas or integrating additional networking protocols.
 - Implement security measures such as Access Control Lists (ACLs) and Virtual Private Networks (VPNs) to enhance network protection.
 - Integrate real-world scenarios and traffic patterns for more realistic simulation and testing.
+
