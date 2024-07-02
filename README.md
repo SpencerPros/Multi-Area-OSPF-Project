@@ -1,6 +1,5 @@
 # Multi-Area-OSPF-Project
 
-This repository contains the configuration files and documentation I used for a multi-area OSPF network project I created using Cisco Packet Tracer.
 
 ## Project Overview
 
