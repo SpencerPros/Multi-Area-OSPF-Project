@@ -85,6 +85,16 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/785f6b39-0ac8-445a-8b98-f20c57f8c798)
   * I made the default gateway on Host 1 the IP address of the Fa0/0 interface on R1 since thats the first interface Host 1 will hit when trying to communicate outside its subnet.
 
+
+**Host 2**
+
+  ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/1cec499f-25f0-4006-8ff8-0956d6d29961)
+  * I made the default gateway on Host 2 the IP address of the Fa0/0 interface on R4 since thats the first interface Host 2 will hit when trying to communicate outside its subnet.
+
+
+
+
+
 ## Challenges Faced
 
 
