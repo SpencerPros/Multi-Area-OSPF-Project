@@ -78,6 +78,13 @@ In this project, I wanted to get a sense of what a real world scenario would loo
   ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/d8aa24ca-949b-4c4a-b860-0b280aa85fb9)
 
 
+* Next I had to implement the IP Addressing on all devices in the network first I started with the PC's, Host 1 and 2.
+  
+**Host 1**
+
+   ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/785f6b39-0ac8-445a-8b98-f20c57f8c798)
+  * I made the default gateway on Host 1 the IP address of the Fa0/0 interface on R1 since thats the first interface Host 1 will hit when trying to communicate outside its subnet.
+
 ## Challenges Faced
 
 
