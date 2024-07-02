@@ -16,7 +16,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 - Understand the fundamentals of OSPF routing protocol and its advantages in large-scale networks.
 - Practice network segmentation and routing optimization using OSPF areas.
-- Gain hands-on experience with Cisco Packet Tracer for network simulation and configuration.
+- Gain hands-on experience with network simulation and configuration.
 
 ## Setup Instructions
 
