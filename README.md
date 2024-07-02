@@ -12,7 +12,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 - **Documentation:** Detailed documentation explaining the project objectives, design decisions, and implementation steps.
 - **Testing and Validation:** Methods used to test and validate the network configuration, including packet captures and routing table analysis.
 
-## Project Goals
+## My Project Goals
 
 - Understand the fundamentals of OSPF routing protocol and its advantages in large-scale networks.
 - Practice network segmentation and routing optimization using OSPF areas.
@@ -27,7 +27,8 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 5. **Explore Documentation:** Refer to the documentation folder for detailed setup instructions, network diagrams, and configuration explanations.
 
 
-## Part 1: My IP Subnet Design
+## Documentation 
+  **Part 1: My IP Subnet Design**
  
 | Subnet Name | Subnet Network Address | Prefix Length (/n) | Size | First Valid Host IP | Last Valid Host IP | OSPF Area (0 or 2) |
 |-------------|------------------------|--------------------|------|---------------------|--------------------|---------------------|
