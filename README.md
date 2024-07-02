@@ -1,4 +1,4 @@
-# Multi-Area-OSPF-Project
+# Multi-Area OSPF Project
 
 
 ## Project Overview
