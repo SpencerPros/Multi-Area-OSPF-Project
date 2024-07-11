@@ -93,7 +93,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 
 **Routers**
-* For the routers I will show how to implement the IP address on port Fa0/0 on R1 but this method can be used to apply the ip address and subnet mask onto each routers ports
+* For the routers I will show how to implement the IP address on port Fa0/0 on R1 but this method can be used to apply the IP address and subnet mask onto each routers ports
 * Quick tip: The DCE serial interfaces you saw marked in the toplogy need to be assigned the higher IP in it's subnet. This consistency makes network configuration and troubleshooting easier, as network administrators can predict the IP addresses of DCE devices in the subnet.
   
 
