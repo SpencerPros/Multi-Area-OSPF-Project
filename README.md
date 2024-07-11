@@ -93,7 +93,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 
 **Routers**
-* For routers I will show how to implement the IP address on port Fa0/0 on R1 but this method can be used to apply the ip address and subnet mask onto each routers ports
+* For the routers I will show how to implement the IP address on port Fa0/0 on R1 but this method can be used to apply the ip address and subnet mask onto each routers ports
   
 
 
