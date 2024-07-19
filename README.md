@@ -113,8 +113,54 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 <br>
  
-**Setup the OSPF Protocol**
-* Next step now that all routers and interfaces are configured is to setup the OSPF protocol on all routers and areas.
+**OSPF Configuration Instructions**
+* Next step now that all routers and interfaces are configured is to setup the OSPF protocol on all routers and areas. This will defenitly be the most important part of the process so make sure everything is setup right.
+* Create a OSPF process with a ID of 50 on each router, I will show how in a example code below
+
+### First, On each router, configure OSPF process 50 and manually set the Router ID as follows:
+
+1. **R1 Router ID is 1.1.1.1**
+    ```plaintext
+    R1> enable
+    R1# configure terminal
+    R1(config)# router ospf 50
+    R1(config-router)# router-id 1.1.1.1
+    R1(config-router)# end
+    ```
+
+2. **R2 Router ID is 2.2.2.2**
+    ```plaintext
+    R2> enable
+    R2# configure terminal
+    R2(config)# router ospf 50
+    R2(config-router)# router-id 2.2.2.2
+    R2(config-router)# end
+    ```
+
+3. **R3 Router ID is 3.3.3.3**
+    ```plaintext
+    R3> enable
+    R3# configure terminal
+    R3(config)# router ospf 50
+    R3(config-router)# router-id 3.3.3.3
+    R3(config-router)# end
+    ```
+
+4. **R4 Router ID is 4.4.4.4**
+    ```plaintext
+    R4> enable
+    R4# configure terminal
+    R4(config)# router ospf 50
+    R4(config-router)# router-id 4.4.4.4
+    R4(config-router)# end
+    ```
+
+### Quick Notes
+
+- Ensure that each router has OSPF process 50 configured.
+- Verify the Router ID configuration with the `show ip ospf` command.
+
+
   
 ## Challenges Faced
 
