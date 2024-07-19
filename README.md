@@ -96,9 +96,15 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 * For the routers I will show how to implement the IP address on port Fa0/0 on R1 but this method can be used to apply the IP address, Area, and Subnet Mask onto each routers ports
 * Quick tip: The DCE serial interfaces you saw marked in the toplogy need to be assigned the higher IP in it's subnet. This consistency makes network configuration and troubleshooting easier, as network administrators can predict the IP addresses of DCE devices in the subnet.
 
+  ![Router IP Implementation](https://github.com/user-attachments/assets/89a7b74a-d868-4b1b-95a1-29db340470d0)
 
+**DCE Interfaces**
+* For DCE Interfaces you will need to configure the clock rate to match what was in the topology. In my topology I have Link 1 being 1 mbps, and Links 2 and 3 being 4 mbps.
+* To assign the clock rate first you will need to go into the router of the specific DCE port. For example i will implement the clock rate on Link 1 to the serial port S0/2/0 on R1. After doing that you will assign the clock rate doing the following commands
 
+  ![image](https://github.com/user-attachments/assets/7cd33b10-44ca-4b51-bc37-305f88a8f117)
 
+ 
 ## Challenges Faced
 
 
