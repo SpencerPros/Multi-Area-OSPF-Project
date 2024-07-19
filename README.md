@@ -155,6 +155,9 @@ In this project, I wanted to get a sense of what a real world scenario would loo
     R4(config-router)# end
     ```
 
+### Next Activate OSPF on all router interfaces including Loopbacks, FastEthernet, and Serial interfaces
+* Remember that each interface is in either Area 2 or 0 so make sure its in the right one, refer back to the topology if you dont remember
+
 ### Quick Notes
 
 - Ensure that each router has OSPF process 50 configured.
