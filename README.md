@@ -69,7 +69,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 | Host #2  | LAN        | 40.40.0.50    | /25   |
 
 
-**Part 3: Network Topology**
+ **Part 3: Network Topology**
  * For my topology draft I used 4 routers, 3 switches, and 2 PC's. With 3 serial links connecting routers R1-R3, R2-R3, and R2-R1. Routers 1 and 2 also have DCE interfaces and I gave link 1 different bandwidth value. I also created two areas being Area 2 and Area 0
 ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/5b10cf9b-592d-4600-a532-3af6b0efc853)
 
@@ -80,26 +80,26 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 * Next I had to implement the IP Addressing on all devices in the network first I started with the PC's, Host 1 and 2.
   
-**Host 1**
+### Host 1
 
    ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/785f6b39-0ac8-445a-8b98-f20c57f8c798)
   * I made the default gateway on Host 1 the IP address of the Fa0/0 interface on R1 since thats the first interface Host 1 will hit when trying to communicate outside its subnet.
 
 
-**Host 2**
+### Host 2
 
   ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/1cec499f-25f0-4006-8ff8-0956d6d29961)
   * I made the default gateway on Host 2 the IP address of the Fa0/0 interface on R4 since thats the first interface Host 2 will hit when trying to communicate outside its subnet.
 
 <br>
 
-**Routers**
+### Routers
 * For the routers I will show how to implement the IP address on port Fa0/0 on R1 but this method can be used to apply the IP address, Area, and Subnet Mask onto each routers ports
 * Quick tip: The DCE serial interfaces you saw marked in the toplogy need to be assigned the higher IP in it's subnet. This consistency makes network configuration and troubleshooting easier, as network administrators can predict the IP addresses of DCE devices in the subnet.
 
   ![Router IP Implementation](https://github.com/user-attachments/assets/89a7b74a-d868-4b1b-95a1-29db340470d0)
 
-**DCE Interfaces**
+### DCE Interfaces
 * For DCE Interfaces you will need to configure the clock rate to match what was in the topology. In my topology I have Link 1 being 1 mbps, and Links 2 and 3 being 4 mbps.
 * To assign the clock rate first you will need to go into the router of the specific DCE port. For example i will implement the clock rate on Link 1 to the serial port S0/2/0 on R1. After doing that you will assign the clock rate doing the following commands, repeat this on each routers DCE interface with the correct clock rate values (1000000 for 1mbps, 4000000 for 4mbps)
 
@@ -107,13 +107,13 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 <br>
 
-**Quick Testing**
+### Quick Testing
 * Before moving on make sure that you can ping from each Host to its default gateway. For example this is me pinging Host 1 to its deault gateway do the same but for Host 2 as well. Also on R1 write the command "show ip int brief" on each router and see if all the IP addressing matches your table.
   ![image](https://github.com/user-attachments/assets/df9c1de1-7bd0-4998-afec-abc7ad57960b)
 
 <br>
  
-**OSPF Configuration Instructions**
+### OSPF Configuration Instructions
 * Next step now that all routers and interfaces are configured is to setup the OSPF protocol on all routers and areas. This will defenitly be the most important part of the process so make sure everything is setup right.
 * Create a OSPF process with a ID of 50 on each router, I will show how in a example code below
 
