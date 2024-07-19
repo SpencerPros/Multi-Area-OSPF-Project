@@ -100,7 +100,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 **DCE Interfaces**
 * For DCE Interfaces you will need to configure the clock rate to match what was in the topology. In my topology I have Link 1 being 1 mbps, and Links 2 and 3 being 4 mbps.
-* To assign the clock rate first you will need to go into the router of the specific DCE port. For example i will implement the clock rate on Link 1 to the serial port S0/2/0 on R1. After doing that you will assign the clock rate doing the following commands, repeat this on each routers DCE interface
+* To assign the clock rate first you will need to go into the router of the specific DCE port. For example i will implement the clock rate on Link 1 to the serial port S0/2/0 on R1. After doing that you will assign the clock rate doing the following commands, repeat this on each routers DCE interface with the correct clock rate values (1000000 for 1mbps, 4000000 for 4mbps)
 
   ![image](https://github.com/user-attachments/assets/7cd33b10-44ca-4b51-bc37-305f88a8f117)
 
