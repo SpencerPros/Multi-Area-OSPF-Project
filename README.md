@@ -91,6 +91,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
   ![image](https://github.com/SpencerPros/Multi-Area-OSPF-Project/assets/156951668/1cec499f-25f0-4006-8ff8-0956d6d29961)
   * I made the default gateway on Host 2 the IP address of the Fa0/0 interface on R4 since thats the first interface Host 2 will hit when trying to communicate outside its subnet.
 
+<br>
 
 **Routers**
 * For the routers I will show how to implement the IP address on port Fa0/0 on R1 but this method can be used to apply the IP address, Area, and Subnet Mask onto each routers ports
@@ -104,7 +105,17 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
   ![image](https://github.com/user-attachments/assets/7cd33b10-44ca-4b51-bc37-305f88a8f117)
 
+<br>
+
+**Quick Testing**
+* Before moving on make sure that you can ping from each Host to its default gateway. For example this is me pinging Host 1 to its deault gateway do the same but for Host 2 as well. Also on R1 write the command "show ip int brief" on each router and see if all the IP addressing matches your table.
+  ![image](https://github.com/user-attachments/assets/df9c1de1-7bd0-4998-afec-abc7ad57960b)
+
+<br>
  
+**Setup the OSPF Protocol**
+* Next step now that all routers and interfaces are configured is to setup the OSPF protocol on all routers and areas.
+  
 ## Challenges Faced
 
 
