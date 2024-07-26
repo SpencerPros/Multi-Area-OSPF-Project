@@ -175,14 +175,23 @@ In this project, I wanted to get a sense of what a real world scenario would loo
   R1-SP(config-router)#network 55.0.0.1 255.255.255.255 area 0
   R1-SP(config-router)# passive-interface Loopback0
 
-### Quick Notes
 
+### Quick tips
 - Ensure that each router has OSPF process 50 configured.
 - Verify the Router ID configuration with the `show ip ospf` command.
 
 
   
-## Challenges Faced
+### Challenges Faced
+ - I could break down my challenges i faced when creating this project into multiple parts
+
+ **My Network Design**
+
+ **Addressing and Subnetting**
+
+ **Configuration**
+
+ **Documentation and Troubleshooting**
 
 
 
