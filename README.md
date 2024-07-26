@@ -157,7 +157,8 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 ### Next I Activate OSPF on all router interfaces including Loopbacks, FastEthernet, and Serial interfaces
 * Remember that each interface is in either Area 2 or 0 so make sure its in the right one, refer back to the topology if you dont remember
-  **Example of Router 1 interface Fa0/0**
+
+ **Example of Router 1 interface Fa0/0**
    ```plaintext
    R1-SP>enable 
    R1-SP#conf t
@@ -165,7 +166,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    R1-SP(config-if)#network 77.77.50.129 255.255.255.128 area 2
    ```
 
-   **Example of Router 1 Loopback0 Interface**
+ **Example of Router 1 Loopback0 Interface**
   ```plaintext
   R1-SP>enable
   R1-SP#conf t
