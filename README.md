@@ -155,8 +155,8 @@ In this project, I wanted to get a sense of what a real world scenario would loo
     R4(config-router)# end
     ```
 
-### Next I Activate OSPF on all router interfaces including Loopbacks, FastEthernet, and Serial interfaces
-* Remember that each interface is in either Area 2 or 0 so make sure its in the right one, refer back to the topology if you dont remember
+### Next I Activate OSPF on all router interfaces including Loopbacks, FastEthernet, and Serial interfaces and make the 4 Loopback interfaces and R1 Fa0/0 and R4 Fa0/0 passive interfaces
+* Remember on other interfaces I did not list  above specifically do not make them passive interfaces
 
  **Example of Router 1 interface Fa0/0**
    ```plaintext
@@ -164,6 +164,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    R1-SP#conf t
    R1-SP(config)#router ospf 50
    R1-SP(config-router)#network 77.77.50.129 255.255.255.128 area 2
+   R1-SP(config-router)# passive-interface FastEthernet0/0
    ```
 
  **Example of Router 1 Loopback0 Interface**
@@ -172,7 +173,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
   R1-SP#conf t
   R1-SP(config)#router ospf 50
   R1-SP(config-router)#network 55.0.0.1 255.255.255.255 area 0
-  R1-SP(config-router)# passive-interface FastEthernet0/0
+  R1-SP(config-router)# passive-interface Loopback0
 
 ### Quick Notes
 
