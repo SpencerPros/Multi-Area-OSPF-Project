@@ -19,27 +19,16 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 - Gain hands-on experience with network simulation and configuration.
 
 ## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [My Project Goals](#my-project-goals)
 - [Setup Instructions](#setup-instructions)
 - [Documentation](#documentation)
-  - [Part 1: My IP Subnet Design](#part-1-my-ip-subnet-design)
-  - [Part 2: My IP Address Assignments](#part-2-my-ip-address-assignments)
-  - [Part 3: Network Topology](#part-3-network-topology)
-  - [Part 4: Implementing the Network](#part-4-implementing-the-network)
 - [Challenges Faced](#challenges-faced)
-  - [My Network Design](#my-network-design)
-  - [Addressing and Subnetting](#addressing-and-subnetting)
-  - [Configuration](#configuration)
-  - [Documentation and Troubleshooting](#documentation-and-troubleshooting)
 - [Future Enhancements](#future-enhancements)
 
 
 
 
 ## Setup Instructions
-
+![Setup Instructions](https://github.com/user-attachments/assets/89a7b74a-d868-4b1b-95a1-29db340470d0)
 1. **Requirements:** Ensure you have Cisco Packet Tracer installed on your system.
 2. **Clone Repository:** Clone this repository to your local machine using `git clone https://github.com/your-username/multi-area-ospf-network.git`.
 3. **Open the Project:** Open the project file in Cisco Packet Tracer.
