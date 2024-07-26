@@ -162,16 +162,17 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    ```plaintext
    R1-SP>enable 
    R1-SP#conf t
-   R1-SP(config)#interface Fa0/0
-   R1-SP(config-if)#network 77.77.50.129 255.255.255.128 area 2
+   R1-SP(config)#router ospf 50
+   R1-SP(config-router)#network 77.77.50.129 255.255.255.128 area 2
    ```
 
  **Example of Router 1 Loopback0 Interface**
   ```plaintext
   R1-SP>enable
   R1-SP#conf t
-  R1-SP(config)#interface Loopback0
-  R1-SP(config-if)#network 55.0.0.1 255.255.255.255 area 0
+  R1-SP(config)#router ospf 50
+  R1-SP(config-router)#network 55.0.0.1 255.255.255.255 area 0
+  R1-SP(config-router)# passive-interface FastEthernet0/0
 
 ### Quick Notes
 
