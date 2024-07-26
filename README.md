@@ -18,6 +18,26 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 - Practice network segmentation and routing optimization using OSPF areas.
 - Gain hands-on experience with network simulation and configuration.
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [My Project Goals](#my-project-goals)
+- [Setup Instructions](#setup-instructions)
+- [Documentation](#documentation)
+  - [Part 1: My IP Subnet Design](#part-1-my-ip-subnet-design)
+  - [Part 2: My IP Address Assignments](#part-2-my-ip-address-assignments)
+  - [Part 3: Network Topology](#part-3-network-topology)
+  - [Part 4: Implementing the Network](#part-4-implementing-the-network)
+- [Challenges Faced](#challenges-faced)
+  - [My Network Design](#my-network-design)
+  - [Addressing and Subnetting](#addressing-and-subnetting)
+  - [Configuration](#configuration)
+  - [Documentation and Troubleshooting](#documentation-and-troubleshooting)
+- [Future Enhancements](#future-enhancements)
+
+
+
+
 ## Setup Instructions
 
 1. **Requirements:** Ensure you have Cisco Packet Tracer installed on your system.
