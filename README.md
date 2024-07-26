@@ -188,6 +188,10 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 - I could break down my challenges I faced when creating this project into multiple parts
 
 **My Network Design**
+- Trying to figure out how many routers I should do and what the area boundries would be
+- Also making sure the backbone area (area 0) is properly connected to other areas
+- I wanted a good load balance for my network to make sure it was not to large or small
+- I settled on 4 routers being a good 
 
 **Addressing and Subnetting**
 
@@ -199,9 +203,9 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 
 
-### Future Enhancements
+# Future Enhancements
 
-- Expand the network by adding more OSPF areas or integrating additional networking protocols.
-- Implement security measures such as Access Control Lists (ACLs) and Virtual Private Networks (VPNs) to enhance network protection.
+- Expand the network by adding more routers and OSPF areas or integrating additional networking protocols.
+- Implement security measures such as Access Control Lists and Virtual Private Networks to enhance the networks protection.
 - Integrate real-world scenarios and traffic patterns for more realistic simulation and testing.
 
