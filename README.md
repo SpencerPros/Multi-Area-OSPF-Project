@@ -174,32 +174,25 @@ In this project, I wanted to get a sense of what a real world scenario would loo
   R1-SP(config)#router ospf 50
   R1-SP(config-router)#network 55.0.0.1 255.255.255.255 area 0
   R1-SP(config-router)# passive-interface Loopback0
+  ```
 
 
-### Quick tips
-- Ensure that each router has OSPF process 50 configured.
-- Verify the Router ID configuration with the `show ip ospf` command.
+# Challenges Faced
+- I could break down my challenges I faced when creating this project into multiple parts
 
+**My Network Design**
 
-  
-### Challenges Faced
- - I could break down my challenges i faced when creating this project into multiple parts
+**Addressing and Subnetting**
 
- **My Network Design**
+**Configuration**
 
- **Addressing and Subnetting**
-
- **Configuration**
-
- **Documentation and Troubleshooting**
+**Documentation and Troubleshooting**
 
 
 
 
 
-
-
-## Future Enhancements
+### Future Enhancements
 
 - Expand the network by adding more OSPF areas or integrating additional networking protocols.
 - Implement security measures such as Access Control Lists (ACLs) and Virtual Private Networks (VPNs) to enhance network protection.
