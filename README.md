@@ -28,7 +28,6 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 
 ## Setup Instructions
-![Setup Instructions](#setup-instructions)
 1. **Requirements:** Ensure you have Cisco Packet Tracer installed on your system.
 2. **Clone Repository:** Clone this repository to your local machine using `git clone https://github.com/your-username/multi-area-ospf-network.git`.
 3. **Open the Project:** Open the project file in Cisco Packet Tracer.
@@ -37,7 +36,6 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 
 ## Documentation 
-![Documentation](https://github.com/user-attachments/assets/89a7b74a-d868-4b1b-95a1-29db340470d0)
   **Part 1: My IP Subnet Design**
   * This  first table outlines the detailed subnet design for the network, including subnet names, network addresses, prefix lengths, subnet sizes, first and last valid host IPs, and OSPF area assignments. It provides a detailed overview of the network segmentation and routing configuration.
  
@@ -187,7 +185,6 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 
 # Challenges Faced
-![Challenges Faced](https://github.com/user-attachments/assets/89a7b74a-d868-4b1b-95a1-29db340470d0)
 - I could break down my challenges I faced when creating this project into multiple parts
 
 **My Network Design**
