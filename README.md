@@ -1,4 +1,4 @@
-# Multi-Area OSPF Project (Work in Progress)
+# Multi-Area OSPF Project
 
 
 ## Project Overview
@@ -165,7 +165,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 ### Next I Activated OSPF on all router interfaces including Loopbacks, FastEthernet, and Serial interfaces and make the 4 Loopback interfaces and R1 Fa0/0 and R4 Fa0/0 passive interfaces
 * Interfaces I did not list above specifically I did not make them passive interfaces
 
- **Example of Router 1**
+ **Example of Router 1:**
    ```plaintext
    R1-SP>enable 
    R1-SP#conf t
@@ -178,7 +178,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    R1-SP(config-router)#passive-interface Loopback0
    ```
 
-**Example of Router 2**
+**Example of Router 2:**
    ```plaintext
    R2-SP>enable 
    R2-SP#conf t
@@ -189,7 +189,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    R2-SP(config-router)# passive-interface Loopback0
    ```
 
-**Example of Router 3**
+**Example of Router 3:**
    ```plaintext
    R3-SP>enable 
    R3-SP#conf t
@@ -201,7 +201,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    R3-SP(config-router)#passive-interface Loopback0
    ```
 
-**Example of Router 4**
+**Example of Router 4:**
    ```plaintext
    R4-SP>enable 
    R4-SP#conf t
