@@ -247,22 +247,22 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 # Technical Skills I gained from this project
 
-**Network Design and Implementation** 
+## Network Design and Implementation
 - Designing complex network topologies
 - Implementing network segmentation and efficient routing strategies
 
-**Routing Protocols**
+## Routing Protocols
 - Configuring and managing OSPF (Open Shortest Path First) in multi-area environments
 - Understanding OSPF concepts such as areas, router IDs, and passive interfaces
 
-**Subnetting and IP Addressing**
+## Subnetting and IP Addressing
 - Planning and implementing subnetting schemes
 - Assigning IP addresses to devices and interfaces
 
-**Cisco IOS Configuration**
+## Cisco IOS Configuration
 - Configuring Cisco routers and switches
 
-**Network Security**
+## Network Security
 - Implementing security measures such as passive interfaces
 - Understanding the importance of network security in OSPF configurations
 
