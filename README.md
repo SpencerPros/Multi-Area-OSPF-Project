@@ -115,7 +115,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 <br>
 
 ### Quick Testing
-* Before moving on make sure that you can ping from each Host to its default gateway. For example this is me pinging Host 1 to its deault gateway do the same but for Host 2 as well. Also on R1 write the command "show ip int brief" on each router and see if all the IP addressing matches your table.
+* Before moving on I made sure that you can ping from each Host to its default gateway. For example this is me pinging Host 1 to its deault gateway do the same but for Host 2 as well. Also I double checked each routers IP and subnet. Using an example on R1 writing the command "show ip int brief" on each router and see if all the IP addressing matches my table.
   ![image](https://github.com/user-attachments/assets/df9c1de1-7bd0-4998-afec-abc7ad57960b)
 
 <br>
@@ -124,7 +124,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 * Next step now that all routers and interfaces are configured is to setup the OSPF protocol on all routers and areas. This will defenitly be the most important part of the process so make sure everything is setup right.
 * Create a OSPF process with a ID of 50 on each router, I will show how in a example code below
 
-### First, On each router, configure OSPF process 50 and manually set the Router ID as follows:
+### First, On each router, I configured OSPF process 50 and manually set the Router ID as follows:
 
 1. **R1 Router ID is 1.1.1.1**
     ```plaintext
