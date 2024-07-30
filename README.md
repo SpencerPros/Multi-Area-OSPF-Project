@@ -205,10 +205,24 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 - **Solution:** I settled on four routers, considering it a good number to demonstrate multi-area OSPF without making the network overly complex.
 
 
-**Addressing and Subnetting**
-- Creating a routing table that included multiple subnets to increase the complexitiy of the project.
-- Making sure that each interface was addressed properly and in he correct subnet
-- 
+## Addressing and Subnetting 
+
+### Creating a Comprehensive Routing Table:
+
+- **Challenge:** Creating a routing table that included multiple subnets to increase the complexity and realism of the project.
+- **Solution:** I designed and implemented a detailed routing table with various subnets, ensuring each subnet was properly documented and integrated into the network.
+
+### Ensuring Proper Interface Addressing:
+
+- **Challenge:** Making sure that each interface was addressed correctly and placed within the appropriate subnet.
+- **Solution:** Carefully assigned IP addresses to each interface, cross-referenced with the subnet design to avoid conflicts, and verified the addressing through simulations and testing.
+
+### Managing Subnet Assignments:
+
+- **Challenge:** Making sure that each subnet was allocated appropriately to balance network traffic and ensure efficient routing.
+- **Solution:** Conducted thorough planning and analysis to assign subnets in a way that optimized network performance and minimized potential issues.
+
+  
 **Configuration**
 - Constantly checking to make sure OSPF was working properly on each router after modifications
 - 
