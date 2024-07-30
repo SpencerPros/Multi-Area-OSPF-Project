@@ -252,14 +252,14 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 - Implementing network segmentation and efficient routing strategies
 
 ## Routing Protocols
-- Configuring and managing OSPF (Open Shortest Path First) in multi-area environments
+- Configuring and managing OSPF in multi-area environments
 - Understanding OSPF concepts such as areas, router IDs, and passive interfaces
 
 ## Subnetting and IP Addressing
 - Planning and implementing subnetting schemes
 - Assigning IP addresses to devices and interfaces
 
-## Cisco IOS Configuration
+## Cisco Device Configuration
 - Configuring Cisco routers and switches
 
 ## Network Security
