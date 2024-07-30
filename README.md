@@ -101,8 +101,8 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 <br>
 
 ### Routers
-* For the routers I will show how to implement the IP address on port Fa0/0 on R1 but this method can be used to apply the IP address, Area, and Subnet Mask onto each routers ports
-* Quick tip: The DCE serial interfaces you saw marked in the toplogy need to be assigned the higher IP in it's subnet. This consistency makes network configuration and troubleshooting easier, as network administrators can predict the IP addresses of DCE devices in the subnet.
+* For the routers I will show how I implemented the IP address on port Fa0/0 on R1 but this method can be used to apply the IP address, Area, and Subnet Mask onto each routers ports
+* The DCE serial interfaces you saw marked in the toplogy I assigned to be the higher IP in it's subnet. This consistency makes network configuration and troubleshooting easier, as network administrators can predict the IP addresses of DCE devices in the subnet.
 
   ![Router IP Implementation](https://github.com/user-attachments/assets/89a7b74a-d868-4b1b-95a1-29db340470d0)
 
@@ -115,7 +115,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 <br>
 
 ### Quick Testing
-* Before moving on I made sure that you can ping from each Host to its default gateway. For example this is me pinging Host 1 to its deault gateway do the same but for Host 2 as well. Also I double checked each routers IP and subnet. Using an example on R1 writing the command "show ip int brief" on each router and see if all the IP addressing matches my table.
+* Before moving on I made sure that I can ping from each Host to its default gateway, as well as each router to its next-hop router. For example this is me pinging Host 1 to its deault gateway do the same but for Host 2 as well. Also I double checked each routers IP and subnet. Using an example on R1 writing the command "show ip int brief" on each router and see if all the IP addressing matches my table.
   ![image](https://github.com/user-attachments/assets/df9c1de1-7bd0-4998-afec-abc7ad57960b)
 
 <br>
