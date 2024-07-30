@@ -121,7 +121,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 <br>
  
 ### OSPF Configuration Instructions
-* Next step now that all routers and interfaces are configured is to setup the OSPF protocol on all routers and areas. This will defenitly be the most important part of the process so make sure everything is setup right.
+* Now that all routers and interfaces are configured it is time to setup the OSPF protocol on all routers and areas. This will defenitly be the most important part of the process so I really had to make sure everything is setup right.
 * Create a OSPF process with a ID of 50 on each router, I will show how in a example code below
 
 ### First, On each router, I configured OSPF process 50 and manually set the Router ID as follows:
@@ -162,8 +162,8 @@ In this project, I wanted to get a sense of what a real world scenario would loo
     R4(config-router)# end
     ```
 
-### Next I Activate OSPF on all router interfaces including Loopbacks, FastEthernet, and Serial interfaces and make the 4 Loopback interfaces and R1 Fa0/0 and R4 Fa0/0 passive interfaces
-* Remember on other interfaces I did not list  above specifically do not make them passive interfaces
+### Next I Activated OSPF on all router interfaces including Loopbacks, FastEthernet, and Serial interfaces and make the 4 Loopback interfaces and R1 Fa0/0 and R4 Fa0/0 passive interfaces
+* Interfaces I did not list above specifically I did not make them passive interfaces
 
  **Example of Router 1 interface Fa0/0**
    ```plaintext
@@ -188,19 +188,17 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 - I could break down my challenges I faced when creating this project into multiple parts
 
 **My Network Design**
-- Trying to figure out how many routers I should do and what the area boundries would be
-- Also making sure the backbone area (area 0) is properly connected to other areas
-- I wanted a good load balance for my network to make sure it was not to large or small
-- I settled on 4 routers being a good 
+- Trying to figure out how many routers I should do and what the area boundries would be.
+- Also making sure the backbone area (area 0) is properly connected to other areas.
+- I wanted a good load balance for my network to make sure it was not to large or small.
+- I settled on 4 routers being a good size for this network.
 
 **Addressing and Subnetting**
-
+- Creating a routing table that included multiple subnets to increase the complexitiy of the project.
+- 
 **Configuration**
 
 **Documentation and Troubleshooting**
-
-
-
 
 
 # Future Enhancements
