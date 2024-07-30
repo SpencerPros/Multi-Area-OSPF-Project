@@ -213,7 +213,6 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    ```
 
 
-
 # Challenges Faced
 
 ## My Network Design
