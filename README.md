@@ -185,21 +185,56 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 
 
 # Challenges Faced
-- I could break down my challenges I faced when creating this project into multiple parts
 
-**My Network Design**
-- Trying to figure out how many routers I should do and what the area boundries would be.
-- Also making sure the backbone area (area 0) is properly connected to other areas.
-- I wanted a good load balance for my network to make sure it was not to large or small.
-- I settled on 4 routers being a good size for this network.
+## My Network Design
+
+### Determining the Number of Routers and Area Boundaries:
+
+- **Challenge:** Figuring out the optimal number of routers and defining the boundaries of each OSPF area.
+- **Solution:** Analyzed different network scenarios and topologies to find a balance that ensures efficient routing and scalability. Decided on four routers as the ideal size to provide a comprehensive yet manageable network setup.
+
+### Ensuring Proper Backbone Area (Area 0) Connectivity:
+
+- **Challenge:** Ensuring that the backbone area (Area 0) was properly connected to all other areas to maintain OSPF hierarchy and efficiency.
+- **Solution:** Verified that all areas had at least one connection to Area 0, maintaining the integrity of the OSPF design and facilitating seamless inter-area routing.
+
+  
+### Deciding on the Number of Routers:
+
+- **Challenge:** Choosing the right number of routers to include in the network.
+- **Solution:** I settled on four routers, considering it a good number to demonstrate multi-area OSPF without making the network overly complex.
+
 
 **Addressing and Subnetting**
 - Creating a routing table that included multiple subnets to increase the complexitiy of the project.
+- Making sure that each interface was addressed properly and in he correct subnet
 - 
 **Configuration**
-
+- Constantly checking to make sure OSPF was working properly on each router after modifications
+- 
 **Documentation and Troubleshooting**
 
+
+# Technical Skills I gained from this project
+
+**Network Design and Implementation**
+- Designing complex network topologies
+- Implementing network segmentation and efficient routing strategies
+
+**Routing Protocols**
+- Configuring and managing OSPF (Open Shortest Path First) in multi-area environments
+- Understanding OSPF concepts such as areas, router IDs, and passive interfaces
+
+**Subnetting and IP Addressing**
+- Planning and implementing subnetting schemes
+- Assigning IP addresses to devices and interfaces
+
+**Cisco IOS Configuration**
+- Configuring Cisco routers and switches
+
+**Network Security**
+- Implementing security measures such as passive interfaces
+- Understanding the importance of network security in OSPF configurations
 
 # Future Enhancements
 
