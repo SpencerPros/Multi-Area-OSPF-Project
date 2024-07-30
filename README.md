@@ -223,15 +223,31 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 - **Solution:** Conducted thorough planning and analysis to assign subnets in a way that optimized network performance and minimized potential issues.
 
   
-**Configuration**
-- Constantly checking to make sure OSPF was working properly on each router after modifications
-- 
-**Documentation and Troubleshooting**
+## Documentation and Troubleshooting
+
+### Detailing Network Design and Configuration:
+
+- **Challenge:** Ensuring that all aspects of the network design and configuration were accurately documented.
+- **Solution:** Created detailed tables and diagrams for my subnet/network design, IP address assignments, and network topology. This helped in keeping track of the configuration and provided a clear reference for troubleshooting.
+
+
+### Keeping track of changes:
+- **Challenge:** Keeping documentation up-to-date.
+- **Solution:** After each step I would refer back to this 'README' and update it with any change I made
+
+### Pinging Issues Between Devices
+- **Challenge:** Identifying and resolving connectivity issues between devices when initial pings failed.
+- **Solution:** Used step-by-step troubleshooting techniques such as verifying physical connections, checking interface statuses, and used commands like show ip int brief and ping to isolate and resolve issues.
+
+### Resolving OSPF Configuration Errors:
+
+- **Challenge:** Making sure OSPF configurations were correctly configured across all routers, especially with multiple areas.
+- **Solution:** Verified OSPF neighbor relationships and routing tables using commands like `show ip ospf neighbor` and `show ip route`. Adjusted configurations as needed to ensure proper OSPF operation.
 
 
 # Technical Skills I gained from this project
 
-**Network Design and Implementation**
+**Network Design and Implementation** 
 - Designing complex network topologies
 - Implementing network segmentation and efficient routing strategies
 
