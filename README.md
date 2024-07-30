@@ -165,7 +165,7 @@ In this project, I wanted to get a sense of what a real world scenario would loo
 ### Next I Activated OSPF on all router interfaces including Loopbacks, FastEthernet, and Serial interfaces and make the 4 Loopback interfaces and R1 Fa0/0 and R4 Fa0/0 passive interfaces
 * Interfaces I did not list above specifically I did not make them passive interfaces
 
- **Example of Router 1 interface Fa0/0**
+ **Example of Router 1**
    ```plaintext
    R1-SP>enable 
    R1-SP#conf t
@@ -175,16 +175,43 @@ In this project, I wanted to get a sense of what a real world scenario would loo
    R1-SP(config-router)# network 200.10.50.8 0.0.0.3 area 2
    R1-SP(config-router)# network 55.0.0.1 0.0.0.0 area 2
    R1-SP(confif-router)#passive-interface FastEthernet0/0
+   R1-SP(config-router)#passive-interface Loopback0
    ```
 
- **Example of Router 1 Loopback0 Interface**
-  ```plaintext
-  R1-SP>enable
-  R1-SP#conf t
-  R1-SP(config)#router ospf 50
-  R1-SP(config-router)#network 55.0.0.1 255.255.255.255 area 0
-  R1-SP(config-router)# passive-interface Loopback0
-  ```
+**Example of Router 2**
+   ```plaintext
+   R2-SP>enable 
+   R2-SP#conf t
+   R2-SP(config)#router ospf 50
+   R2-SP(config-router)# network 200.10.50.4 0.0.0.3 area 2
+   R2-SP(config-router)# network 200.10.50.8 0.0.0.3 area 2
+   R2-SP(config-router)# network 55.0.0.2 0.0.0.0 area 2
+   R2-SP(config-router)# passive-interface Loopback0
+   ```
+
+**Example of Router 3**
+   ```plaintext
+   R3-SP>enable 
+   R3-SP#conf t
+   R3-SP(config)#router ospf 50
+   R3-SP(config-router)# network 88.88.10.128 0.0.0.127 area 0
+   R3-SP(config-router)# network 200.10.50.0 0.0.0.3 area 2
+   R3-SP(config-router)# network 200.10.50.4 0.0.0.3 area 2
+   R3-SP(config-router)# network 55.0.0.3 0.0.0.0 area 0
+   R3-SP(config-router)#passive-interface Loopback0
+   ```
+
+**Example of Router 4**
+   ```plaintext
+   R4-SP>enable 
+   R4-SP#conf t
+   R4-SP(config)#router ospf 50
+   R4-SP(config-router)# network 40.40.0.0 0.0.0.127 area 0
+   R4-SP(config-router)# network 88.88.10.128 0.0.0.127 area 0
+   R4-SP(config-router)# network 55.0.0.4 0.0.0.0 area 0
+   R4-SP(config-router)#passive-interface Loopback0
+   ```
+
 
 
 # Challenges Faced
