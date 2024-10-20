@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-In this project, I wanted to get a sense of what a real world scenario would look like when setting up Multi-Area OSPF on a network. So, I designed and implemented a network using OSPF with multiple areas in Cisco Packet Tracer to demonstrate efficient routing and network segmentation. This network consists of PC's, routers, and switches interconnected to simulate a real-world scenario the best I could.
+In this project, I wanted to get a sense of what a real-world scenario would look like when setting up Multi-Area OSPF on a network. So, I designed and implemented a network using OSPF with multiple areas in Cisco Packet Tracer to demonstrate efficient routing and network segmentation. This network consists of PC's, routers, and switches interconnected to simulate a real-world scenario the best I could.
 
 ## Features
 
